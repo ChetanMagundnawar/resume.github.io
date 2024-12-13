@@ -1093,15 +1093,21 @@ header .row {
 	position: relative;
 	min-height: 66px;
 }
-header .top-bar {
-	display: block;
-	background: #000000;
-	min-width: 90px;
-	min-height: 66px;
-	position: absolute;
-	left: 10px;
-	top: 0;
-}
+<header>
+    <div class="top-bar">
+        <span style="float: right; color: white; padding-right: 10px;">More</span>
+    </div>
+    <div class="col-six">
+        <div class="project">
+            <h3>Attendance Management</h3>
+            <!-- Add a project image -->
+            <img src="attendance/AtttendanceManagement.jpg" alt="Site Checker Project" style="width:100%; border-radius:8px; margin-bottom:15px;">
+            <p class="project-description">
+                This project is a web-based application for eye testing. It helps users to evaluate their eyesight through interactive tests.
+            </p>
+        </div>
+    </div>
+</header>
 header .logo {
 	float: left;
 	margin-left: 20px;
